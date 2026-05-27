@@ -6,5 +6,12 @@ def func():
     print("Farhan")
     count += 1
     func()
+func()    
+
+def recursion(x,n):
+    if n == 0:
+        return
+    print(x)
+    recursion(x, n-1)
     
-print(func())    
+recursion("farhan",4)    
